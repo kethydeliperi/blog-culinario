@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="./lib/bootstrap.min.css">
+</head>
+<body>
+    <header>
+        <h1>Blog culinário</h1>
+        <div class="barra-pesquisa">
+            <input class="pesquisa" type="text" placeholder="Pesquisa">
+            <button class="pesquisa-botao">Procurar</button>
+        </div>
+    </header>
+    <hr class="linha">
+    <div class="container">
+        <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div data-bs-interval="3000" class="carousel-item active">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/02/15/10/39/salad-2068220_1280.jpg" alt="Imagem de um prato de salada">
+                    <div class="carousel-caption">
+                        <h2>Verão 2023: Aprenda pratos leves e práticos para seu dia a dia</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/12/10/14/47/pizza-3010062_1280.jpg" alt="Imagem de pizza">
+                    <div class="carousel-caption">
+                        <h2>Conheça as novas receitas disponíveis no site!</h2>
+                    </div>
+                </div>
+                <div data-bs-interval="3000" class="carousel-item">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2016/11/06/23/31/breakfast-1804457_1280.jpg" alt="Imagem de um hambúrguer">
+                    <div class="carousel-caption">
+                        <h2>Receitas veganas e vegetarianas</h2>
+                    </div>
+                </div>
+            </div>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="prev" class="carousel-control-prev" type="button">
+                <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button data-bs-target="#carousel-exemplo" data-bs-slide="next" class="carousel-control-next" type="button">
+                <span class="carousel-control-next-icon"></span>
+            </button>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carousel-exemplo" class="active" data-bs-slide-to="0"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#carousel-exemplo" data-bs-slide-to="2"></button>
+            </div>
+        </div>
+    </div>
+    <h1 class="titulo-secao"> Destaques </h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-4 col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/03/15/19/18/tartlet-2147173_1280.jpg" alt="imagem de torta de limão">
+                    <div class="card-body">
+                        <h4 class="card-title">40 receitas fáceis com creme de leite</h4>
+                        <a href="#" class="btn btn-outline-success">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>04/09/2023 às 12:00:00</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2018/05/01/18/21/eclair-3366430_1280.jpg" alt="imagem de doces">
+                    <div class="card-body">
+                        <h4 class="card-title">Conheça as melhores dicas para confeitaria</h4>
+                        <a href="#" class="btn btn-outline-success">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>04/09/2023 às 12:00:00</time>
+                    </footer>
+                </article>
+            </div>
+            <div class="col-4 col-lg-4 col-md-6 col-sm-12">
+                <article class="card">
+                    <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2017/08/10/19/41/food-2626967_1280.jpg" alt="imagem de tábua de frios">
+                    <div class="card-body">
+                        <h4 class="card-title">Como montar uma mesa de frios</h4>
+                        <a href="#" class="btn btn-outline-success">Leia mais</a>
+                    </div>
+                    <footer class="card-footer">
+                        Postado em <time>04/09/2023 às 12:00:00</time>
+                    </footer>
+                </article>
+            </div>
+        </div>    
+    </div>
+    <script src="./lib/js_bootstrap.bundle.min.js"></script>
+</body>
+</html>

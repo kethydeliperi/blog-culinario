@@ -1,0 +1,38 @@
+header {
+    display: flex;
+}
+
+header h1 {
+    margin: 10px;
+}
+
+.barra-pesquisa {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.pesquisa, .pesquisa-botao {
+    border-radius: 6px;
+    border-color: rgba(212, 212, 212, 0.753);
+}
+
+.pesquisa-botao {
+    color: rgb(24, 24, 24);
+    background-color: white;
+}
+
+.linha {
+    color: rgba(53, 78, 53, 0.486);
+}
+
+.container {
+    padding-top: 20px;
+}
+
+.titulo-secao {
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+}
